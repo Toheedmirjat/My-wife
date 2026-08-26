@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tohi ❤️ Mishu</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<button class="music-btn" onclick="toggleMusic()" id="musicBtn">
+🎵 Music
+</button>
+
+<audio id="music" loop>
+<source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<section class="hero">
+<div class="container center">
+
+<div class="big-heart">❤️</div>
+
+<p class="small-title">
+A PRIVATE LITTLE UNIVERSE
+</p>
+
+<h1>Mishu</h1>
+
+<p class="intro">
+Meri pyari Mishu ❤️<br>
+Tohi ne tumhare liye yeh choti si duniya banayi hai.
+<br>
+End tak zaroor dekhna. 🥹
+</p>
+
+<button class="btn" onclick="scrollToSection('journey')">
+✨ Start Our Story
+</button>
+
+<button class="btn outline" onclick="scrollToSection('game')">
+🎮 Play Game
+</button>
+
+</div>
+</section>
+
+
+<section id="journey">
+<div class="container center">
+
+<p class="small-title">TOHI ❤️ MISHU</p>
+
+<h2>Our Time Together ⏳</h2>
+
+<p class="text">
+27 April 2026 se hamari special journey ka counter.
+</p>
+
+<div class="counter">
+
+<div class="time-card">
+<strong id="days">0</strong>
+<span>Days</span>
+</div>
+
+<div class="time-card">
+<strong id="hours">0</strong>
+<span>Hours</span>
+</div>
+
+<div class="time-card">
+<strong id="minutes">0</strong>
+<span>Minutes</span>
+</div>
+
+<div class="time-card">
+<strong id="seconds">0</strong>
+<span>Seconds</span>
+</div>
+
+</div>
+
+<div class="glass">
+<h3>Ek simple si baat ❤️</h3>
+
+<p class="text">
+Mujhe perfect story nahi chahiye.
+<br>
+Mujhe bas woh story chahiye jisme tum ho.
+</p>
+</div>
+
+</div>
+</section>
+
+
+<section>
+<div class="container center">
+
+<p class="small-title">REASONS</p>
+
+<h2>Why I Love You 💗</h2>
+
+<div class="cards">
+
+<div class="card">
+<div>😊</div>
+<h3>Your Smile</h3>
+<p>
+Tumhari smile mera favourite view hai.
+</p>
+</div>
+
+<div class="card">
+<div>🫶</div>
+<h3>Your Care</h3>
+<p>
+Tumhari choti choti caring baatein special hain.
+</p>
+</div>
+
+<div class="card">
+<div>🥹</div>
+<h3>Your Presence</h3>
+<p>
+Tumhara hona hi mere liye kaafi hai.
+</p>
+</div>
+
+<div class="card">
+<div>🌙</div>
+<h3>Your Voice</h3>
+<p>
+Tumhari awaaz mein alag sa sukoon hai.
+</p>
+</div>
+
+<div class="card">
+<div>💫</div>
+<h3>Your Uniqueness</h3>
+<p>
+Duniya mein bohot log hain, lekin tum sirf ek ho.
+</p>
+</div>
+
+<div class="card">
+<div>❤️</div>
+<h3>Just You</h3>
+<p>
+Sabse simple reason: mujhe tumse mohabbat hai.
+</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<section>
+<div class="container center">
+
+<p class="small-title">YOUR MEMORIES</p>
+
+<h2>Photo Gallery 📸</h2>
+
+<p class="text">
+Apni photos ko photo1.jpg, photo2.jpg etc. ke naam se upload karna.
+</p>
+
+<div class="gallery">
+
+<img src="photo1.jpg" onclick="openPhoto(this.src)" alt="Photo 1">
+<img src="photo2.jpg" onclick="openPhoto(this.src)" alt="Photo 2">
+<img src="photo3.jpg" onclick="openPhoto(this.src)" alt="Photo 3">
+<img src="photo4.jpg" onclick="openPhoto(this.src)" alt="Photo 4">
+<img src="photo5.jpg" onclick="openPhoto(this.src)" alt="Photo 5">
+<img src="photo6.jpg" onclick="openPhoto(this.src)" alt="Photo 6">
+
+</div>
+
+</div>
+</section>
+
+
+<section>
+<div class="container center">
+
+<p class="small-title">MOVING MEMORIES</p>
+
+<h2>Our Videos 🎬</h2>
+
+<p class="text">
+Apni videos ko video1.mp4 aur video2.mp4 ke naam se upload karna.
+</p>
+
+<div class="videos">
+
+<video controls poster="photo1.jpg">
+<source src="video1.mp4" type="video/mp4">
+</video>
+
+<video controls poster="photo2.jpg">
+<source src="video2.mp4" type="video/mp4">
+</video>
+
+</div>
+
+</div>
+</section>
+
+
+<section>
+<div class="container">
+
+<p class="small-title center">OUR STORY</p>
+
+<h2 class="center">Timeline 💫</h2>
+
+<div class="timeline">
+
+<div class="event">
+<strong>27 April 2026</strong>
+<h3>Our Special Beginning ❤️</h3>
+<p>
+Woh date jo hamari story ka beautiful part ban gayi.
+</p>
+</div>
+
+<div class="event">
+<strong>Our Conversations 💬</strong>
+<h3>Little Talks, Big Feelings</h3>
+<p>
+Kabhi long talks, kabhi choti si baat — sab yaad rehne wali.
+</p>
+</div>
+
+<div class="event">
+<strong>Our Memories 📸</strong>
+<h3>Moments Worth Keeping</h3>
+<p>
+Har photo ke peeche ek feeling hai.
+</p>
+</div>
+
+<div class="event">
+<strong>Future ♾️</strong>
+<h3>The Best Pages Are Still Ahead</h3>
+<p>
+Abhi story khatam nahi hui — aage bohot kuch likhna hai.
+</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<section id="game">
+<div class="container center">
+
+<p class="small-title">MINI GAME</p>
+
+<h2>Catch My Hearts 🎮❤️</h2>
+
+<p class="text">
+30 seconds mein jitne hearts catch kar sakti ho karo!
+</p>
+
+<div class="game-box">
+
+<div class="score">
+Score: <span id="score">0</span>
+&nbsp; | &nbsp;
+Time: <span id="gameTime">30</span>
+</div>
+
+<div id="gameArea"></div>
+
+<button class="btn" onclick="startGame()">
+▶ Start Game
+</button>
+
+<p id="gameMessage"></p>
+
+</div>
+
+</div>
+</section>
+
+
+<section>
+<div class="container center">
+
+<p class="small-title">LITTLE CHALLENGE</p>
+
+<h2>How Well Do You Know Tohi? 🧠</h2>
+
+<div class="quiz glass">
+
+<h3 id="question"></h3>
+
+<div id="answers"></div>
+
+<p id="quizResult"></p>
+
+<button class="btn outline" onclick="nextQuestion()">
+Next Question ➜
+</button>
+
+</div>
+
+</div>
+</section>
+
+
+<section>
+<div class="container center">
+
+<p class="small-title">CHOOSE ONE</p>
+
+<h2>Pick Your Mystery Gift 🎁</h2>
+
+<p class="text">
+Sirf ek choose karna... 👀
+</p>
+
+<div class="gifts">
+
+<button onclick="gift(1)">🎁</button>
+<button onclick="gift(2)">🎀</button>
+<button onclick="gift(3)">💝</button>
+
+</div>
+
+<p id="giftResult"></p>
+
+</div>
+</section>
+
+
+<section>
+<div class="container center">
+
+<p class="small-title">PRIVATE SURPRISE</p>
+
+<h2>🔐 Secret Message</h2>
+
+<p class="text">
+Hint: jis naam se tum mujhe pyar se bulati ho... 😉
+</p>
+
+<div class="password-box glass">
+
+<input
+id="password"
+type="password"
+placeholder="Enter password"
+>
+
+<button class="btn" onclick="unlock()">
+Unlock ❤️
+</button>
+
+<p id="secret"></p>
+
+</div>
+
+</div>
+</section>
+
+
+<section>
+<div class="container">
+
+<div class="letter glass">
+
+<p class="small-title">
+A LETTER FROM TOHI
+</p>
+
+<h2>Dear Mishu 💌</h2>
+
+<p>
+
+Mishu, kabhi kabhi feelings ko words mein explain karna mushkil hota hai.
+
+Isliye maine yeh choti si website banayi.
+
+Iske har section ka ek hi reason hai:
+
+tumhe smile karwana. 🥹❤️
+
+<br><br>
+
+Main tumhe perfect promises nahi de raha.
+
+Bas itna keh raha hoon ke tum mere liye special ho,
+aur tumhari khushi mere liye important hai.
+
+<br><br>
+
+Agar kabhi tum is website ko dobara kholo,
+to yaad rakhna:
+
+<br><br>
+
+<b>
+“Tohi ne yeh sirf Mishu ke liye banayi thi.” ❤️
+</b>
+
+</p>
+
+</div>
+
+</div>
+</section>
+
+
+<section>
+<div class="container center">
+
+<p class="small-title">FOR YOU</p>
+
+<h2>Message Tohi 💌</h2>
+
+<p class="text">
+Agar website dekh kar smile aa gayi hai,
+to Tohi ko bata do. 🥹
+</p>
+
+<button class="btn whatsapp" onclick="messageTohi()">
+💚 Message Tohi on WhatsApp
+</button>
+
+</div>
+</section>
+
+
+<section class="final">
+
+<div class="container center">
+
+<div class="big-heart">
+💖
+</div>
+
+<p class="small-title">
+FOREVER
+</p>
+
+<h2>
+Tohi ❤️ Mishu
+</h2>
+
+<p class="intro">
+Tum meri favourite person,
+favourite feeling
+aur favourite story ho.
+</p>
+
+<button class="btn" onclick="finalSurprise()">
+✨ One Last Surprise
+</button>
+
+<p id="finalText"></p>
+
+</div>
+
+</section>
+
+
+<div id="lightbox" onclick="closePhoto()">
+
+<span class="close">
+×
+</span>
+
+<img id="lightImg">
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
