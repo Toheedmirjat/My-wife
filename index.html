@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090313">
+<title>Mishu ❤️ | 20 October</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="particles"></div>
+
+<div id="intro" class="screen">
+  <div class="intro-content">
+    <div class="moon">🌙</div>
+    <p class="tiny">A LITTLE SURPRISE FOR</p>
+    <h1>Mishu <span>❤️</span></h1>
+    <p class="intro-line">20 October is not just a date...</p>
+    <button id="startBtn">Begin Your Surprise ✨</button>
+  </div>
+</div>
+
+<main id="main" class="hidden">
+  <section class="hero">
+    <p class="tiny">20 OCTOBER • YOUR SPECIAL DAY</p>
+    <h2>Happy Birthday<br><span>Mishu ❤️</span></h2>
+    <p class="soft">A small corner of the internet made specially for you.</p>
+    <div id="countdown" class="countdown"></div>
+  </section>
+
+  <section class="section">
+    <p class="step">01 • YOUR FIRST GIFT</p>
+    <h3>Something is waiting for you 🎁</h3>
+    <div class="gift-wrap">
+      <div id="gift" class="gift">🎁</div>
+      <button id="giftBtn">Open My Gift</button>
+    </div>
+    <div id="giftMessage" class="reveal">
+      <div class="sparkle">✨</div>
+      <p>It isn't something expensive...</p>
+      <strong>It's something made with time, thought and a little bit of heart. 🫀</strong>
+    </div>
+  </section>
+
+  <section class="section">
+    <p class="step">02 • LITTLE MEMORIES</p>
+    <h3>Our little moments 📸</h3>
+    <p class="soft">Add your photos as <b>photo1.jpg</b>, <b>photo2.jpg</b>, <b>photo3.jpg</b> and <b>photo4.jpg</b>.</p>
+    <div class="gallery">
+      <div><img src="photo1.jpg" onerror="this.style.display='none';this.parentElement.classList.add('empty')"><span>One beautiful memory ❤️</span></div>
+      <div><img src="photo2.jpg" onerror="this.style.display='none';this.parentElement.classList.add('empty')"><span>A moment worth keeping ✨</span></div>
+      <div><img src="photo3.jpg" onerror="this.style.display='none';this.parentElement.classList.add('empty')"><span>Still a special memory 🫀</span></div>
+      <div><img src="photo4.jpg" onerror="this.style.display='none';this.parentElement.classList.add('empty')"><span>Another little chapter 🌸</span></div>
+    </div>
+  </section>
+
+  <section class="section letter-section">
+    <p class="step">03 • A LETTER FOR YOU</p>
+    <h3>Open when you're ready 💌</h3>
+    <button id="letterBtn" class="envelope">💌<span>Open the Letter</span></button>
+    <div id="letter" class="letter hidden">
+      <p>Happy Birthday, Mishu ❤️</p>
+      <p>20 October mere liye sirf tumhari birthday date nahi, balki woh din hai jis din Allah ne duniya mein ek aisi insan ko bheja jo meri zindagi ka bohat khoobsurat hissa bani.</p>
+      <p>Aaj main tumse koi shikwa nahi karna chahta, na koi purani baat yaad dilana chahta hoon. Bas dil se dua karta hoon ke Allah tumhari zindagi ko sukoon, khushi, sehat aur har woh cheez de jo tumhare liye behtareen ho. 🤲❤️</p>
+      <p>Tum hamesha muskurati raho, tumhari aankhon mein aansu sirf khushi ke hon, aur tumhare har mushkil waqt ke baad Allah tumhare liye aasani likhe. 🌸</p>
+      <p>Jo bhi waqt humne saath guzara, meri zindagi ka ek khoobsurat hissa rahega. Main uske liye hamesha thankful rahunga.</p>
+      <p>Happy Birthday, Mishu. ❤️<br>Allah tumhein hamesha apni aman mein rakhe. 🤲</p>
+      <p class="sign">— Tohi 🫀</p>
+    </div>
+  </section>
+
+  <section class="section music-section">
+    <p class="step">04 • ONE SONG FOR YOU</p>
+    <h3>Press play 🎵</h3>
+    <p class="soft">Apna song <b>music.mp3</b> ke naam se isi folder mein upload karna.</p>
+    <audio id="music" loop src="music.mp3"></audio>
+    <button id="musicBtn">▶ Play Birthday Music</button>
+  </section>
+
+  <section class="final">
+    <div class="big-heart">❤️</div>
+    <p class="tiny">ONE LAST THING</p>
+    <h3>Tap the heart 🫀</h3>
+    <button id="heartBtn" class="heart-btn">❤️</button>
+    <div id="finalText" class="hidden final-text">
+      <h2>Happy Birthday, Mishu! 🎂❤️</h2>
+      <p>Main tumhare liye bas ek dua karta hoon:</p>
+      <p class="dua">“Allah tumhein hamesha khush, mehfooz aur apni aman mein rakhe. 🤲”</p>
+      <p>— Tohi</p>
+    </div>
+  </section>
+
+  <footer>Made with ❤️ specially for Mishu • 20 October</footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
